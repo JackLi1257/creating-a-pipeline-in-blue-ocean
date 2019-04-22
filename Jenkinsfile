@@ -7,11 +7,6 @@ pipeline {
 
   }
   stages {
-    stage('build') {
-      steps {
-        sh 'mvn --version'
-      }
-    }
     stage('Build') {
       steps {
         sh 'npm install'
